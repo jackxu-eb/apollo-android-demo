@@ -1,0 +1,9 @@
+query AllCompaniesQuery{
+    allCompanies(first: 5) {
+        edges {
+            node {
+                name
+            }
+        }
+    }
+}
